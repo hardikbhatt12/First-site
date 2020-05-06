@@ -1,0 +1,156 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+
+}
+h1{
+  font-family: "cooper";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0px 0px 50px 0px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  margin: 10px;
+}
+.btn{
+  margin: 20px 20px 10px 0px;
+}
+
+.image-title{
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 300px;
+  height: 550px;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+
+.features-pack{
+  text-align: center;
+  padding: 5%;
+}
+
+h3{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.icon{
+  color: #d12c4d ;
+  margin-bottom: 10px;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  line-height: 1.5;
+  color: white;
+}
+
+h2{
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+  font-family: Arial ;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.aid{
+  padding-bottom: 20px;
+  width: 15%;
+margin: 15px;
+}
+
+.carousel-item{
+padding: 7% 15%;
+}
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price{
+  padding: 3% 3%;
+}
+
+
+@media (max-width: 1058px) {
+  #title{
+    text-align: center;
+  }
+  .image-title{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  padding: 70px;
+  text-align: center;
+
+}
+
+.footer{
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  font-family: "cooper";
+}
+
+#footer{
+  padding: 70px;
+  text-align: center;
+}
+
+
+.tt{
+  margin: 10px;
+  
+}
+
+.tt:hover {
+  color: blue;
+}
